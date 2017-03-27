@@ -1,0 +1,89 @@
+*{
+	box-sizing: border-box;
+}
+.name{
+	float: left;
+	font-family: monospace;
+	font-size: 30px;
+}
+.about{
+	list-style-type: none;
+	font-family: monospace;
+}
+ul{
+	float: right;
+	margin:  20px;
+}
+li{
+	float: left;
+	margin: 20px;
+}
+nav{
+	height: 100px;
+	width: 100%;
+	
+}
+header{
+	height: 300px;
+	width: 100%;
+}
+img{
+	height: 300px;
+	width: 100%;
+	background-image: url("C:\Users\eunseo\Pictures\Saved Pictures/background.jpg");
+
+	position: absolute;
+
+}
+.main{
+	background-image: url("C:\Users\eunseo\Pictures\Saved Pictures/image.jpg");
+	vertical-align: middle;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	margin-top: 80px ;
+	margin-left: 200px;
+}
+.maintitle{
+	font-family: cursive;
+	width: 100%;
+}
+section{
+	width: 900px;
+	height: 500px;
+	padding: 50px 50px 50px 50px;
+
+}
+article img{
+	width: 310px;
+	height: 310px;
+	padding: 50px 50px 50px 50px;
+
+}
+.first{
+	float: left;
+	width: 200px;
+	margin: 30px 30px;
+	/*position: relative;*/
+}
+article p{
+	margin: 300px 10px  10px  50px;
+	text-align: center;
+}
+/*.second{
+	float: left;
+	position: relative;
+	
+}
+.third{
+	float: left;
+	position: relative;
+	margin-bottom : 20px;
+}*/
+footer{
+	background-color: gray;
+	text-align: center;
+	font-family: monospace;;
+	font-size: 15px;
+	width: 100%;
+}
